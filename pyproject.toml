@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "classwork-pythondlapplicationdevelopment"
+version = "0.1.0"
+description = ""
+authors = ["chesterXalan <mastenfor26@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+tensorflow = {extras = ["and-cuda"], version = "^2.17.0"}
+pandas = "^2.2.2"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.jupyter.dependencies]
+notebook = "^7.2.2"
+ipywidgets = "^8.1.5"
+
+
+[tool.poetry.group.type.dependencies]
+types-tensorflow = "^2.17.0.20240820"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
