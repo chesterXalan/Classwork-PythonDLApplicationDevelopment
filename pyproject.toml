@@ -9,9 +9,10 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
 tensorflow = { extras = ["and-cuda"], version = "^2.17.0" }
-pandas = "^2.2.2"
+pandas = "^2.2.3"
 matplotlib = "^3.9.2"
 scikit-learn = "^1.5.2"
+scikit-image = "^0.24.0"
 
 
 [tool.poetry.group.jupyter.dependencies]
@@ -20,7 +21,7 @@ ipywidgets = "^8.1.5"
 
 
 [tool.poetry.group.type.dependencies]
-types-tensorflow = "^2.17.0.20240820"
+types-tensorflow = "^2.17.0.20240920"
 
 [build-system]
 requires = ["poetry-core"]
