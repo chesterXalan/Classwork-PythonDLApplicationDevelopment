@@ -13,7 +13,7 @@ priority = "explicit"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-tensorflow = { extras = ["and-cuda"], version = "^2.17.0" }
+tensorflow = { extras = ["and-cuda"], version = "^2.18.0rc2" }
 torch = {version = "2.1.0", source = "pytorch"}
 torchvision = {version = "0.16.0", source = "pytorch"}
 torchaudio = {version = "2.1.0", source = "pytorch"}
@@ -22,7 +22,7 @@ matplotlib = "^3.9.2"
 scikit-learn = "^1.5.2"
 scikit-image = "^0"
 opencv-python = "^4.10.0.84"
-ultralytics = "^8.3.11"
+ultralytics = "^8.3.17"
 jieba = "^0"
 nltk = "^3.9.1"
 wordcloud = "^1.9.3"
