@@ -28,7 +28,9 @@ nltk = "^3.9.1"
 wordcloud = "^1.9.3"
 xgboost = "^2.1.1"
 lightgbm = "^4.5.0"
-spacy = "^3.8.2"
+# spacy = "^3.8.2"
+# gensim = "^4.3.3"
+
 
 [tool.poetry.group.jupyter.dependencies]
 notebook = "^7.2.2"
