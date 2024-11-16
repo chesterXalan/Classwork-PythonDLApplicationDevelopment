@@ -36,6 +36,10 @@ tf-keras = "^2.18.0"
 ckip-transformers = "^0.3.4"
 diffusers = "^0.31.0"
 scipy = "^1.14.1"
+librosa = "^0.10.2.post1"
+speechrecognition = "^3.11.0"
+pyaudio = "^0.2.14"
+pytube2 = "^15.0.11"
 
 [tool.poetry.group.jupyter.dependencies]
 notebook = "^7.2.2"
